@@ -1,0 +1,146 @@
+body {
+    background-color: #FFEEAD;
+}
+
+
+/* Ensures the header extends full width */
+header {
+    background-color: #FFAD60; /* Sets the background color of the header */
+    width: 100vw; /* Full viewport width */
+    position: relative; /* Keeps the header in place */
+    left: 50%; /* Shift header to center */
+    margin-left: -50vw; /* Shift header back to full viewport width */
+    padding: 1rem 0; /* Adds vertical padding for spacing */
+    box-sizing: border-box; /* Includes padding and borders in the width and height */
+}
+
+/* Adjusts navigation link color for contrast */
+header .nav-link {
+    color: #A02334; /* Adjust link color */
+}
+
+/* Button styles */
+header .btn-outline-primary, header .btn-primary {
+    background-color: #fff; /* Optional: Set border color for buttons */
+    border-color: #fff;
+    margin-right: 20px;
+}
+
+header .btn-primary {
+    background-color: #fff; /* Optional: Set background color for primary button */
+    border-color: #fff;
+    color: #FFAD60; /* Optional: Set text color for primary button */
+}
+
+/* Adjusts font size and color for the paragraph */
+header h2 a {
+    font-size: 1.25rem; /* Adjust font size */
+    color: #A02334; /* Adjust text color */
+    margin-left: 20px;
+}
+
+.bg-body-tertiary {
+    color: black !important;
+}
+
+.container py-1{
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-search-container {
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+    justify-content: center; /* Horizontally centers the items */
+    gap: 20px; /* Adds space between the Menu button and the search form */
+    margin: 20px 0; /* Adds space above and below the container */
+}
+
+.Menu {
+    /* Optional: If you want to add specific styling to the Menu container */
+}
+
+.menu {
+    background-color: #FFAD60; /* Example background color */
+    color: #A02334; /* Example text color */
+    font-weight: 900;
+    border: none; /* Removes default border */
+    padding: 10px 90px; /* Adjusts padding */
+    font-size: 16px; /* Adjusts font size */
+    border-radius: 5px; /* Rounds the corners */
+    cursor: pointer; /* Changes cursor to pointer */
+}
+
+.menu:hover {
+    background-color: #FFA95F; /* Changes color on hover */
+}
+
+.search {
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+}
+
+.form-inline {
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+}
+
+.searchbar {
+    padding: 8px; /* Adjusts padding */
+    font-size: 16px; /* Adjusts font size */
+    border-radius: 5px 0 0 5px; /* Rounds left corners */
+    border: 1px solid #ccc; /* Border color */
+}
+
+.searchbutton {
+    padding: 8px 16px; /* Adjusts padding */
+    background-color: #96CEB4; /* Green background */
+    color: white; /* Text color */
+    border: none; /* Removes default border */
+    border-radius: 0 5px 5px 0; /* Rounds right corners */
+    cursor: pointer; /* Changes cursor to pointer */
+}
+
+.searchbutton:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+
+footer {
+    background-color: #FFAD60;
+    color: #A02334;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.row.py-lg-5
+{
+    background-color: #FFB980;;
+}
+
+.album.py-5.bg-body-tertiary {
+    background-color: #A02334 !important;
+    background-position: 1px;
+    
+}
+
+.container1{
+    background-color: #A02334;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}

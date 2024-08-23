@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+.left-column {
+    width: 50vw; /* Adjust this value as needed (e.g., 50% of the viewport width) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #96CEB4;
+}
+
+.right-column {
+    flex: 1; /* Takes the remaining width */
+    background-color: #fff;
+}
+
+.custom-button {
+    background-color: #FFAD60;
+    color: #A02334;
+    font-weight: 700;
+    border: none; /* Remove default border */
+}
+
+.custom-button:hover {
+    background-color: #FFB980; /* Slightly lighter shade on hover */
+    color: #A02334;
+}
+
+.form-floating{
+    padding: 5px;;
+}
+
+
